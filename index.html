@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width",initial-scale="1.0">
+    <title>EDUCE - Empowering Digital Understanding and Capabilities Everywhere</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Social Media icons -->
+    <script src="https://kit.fontawesome.com/87e016a7b3.js" crossorigin="anonymous"></script>
+    
+    <!-- Scrolling animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/site_logo.png"></a> <!-- This is the logo for the website (top left)-->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <div class="text-box">
+        <h1>EDUCE</h1>
+        <h2>Empowering Digital Understanding and Capabilities Everywhere</h2>
+        <p id="typed-text"></p>
+
+        <script>
+        var i = 0;
+        var txt = 'Student-led. Student-fed. Bridging the Digital Divide. Fostering digital literacy, one community at a time.';
+        var speed = 30;
+
+        function typeWriter() {
+            if (i < txt.length) {
+            document.getElementById("typed-text").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+            }
+        }
+        typeWriter();
+        </script>
+        
+        <a href="course.html" class="hero-btn">Visit Us to know more</a>
+    </div>
+
+    </section>
+
+
+<!------- Course -------->
+
+<section data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="linear" class="course">
+    <h1>Who can join.</h1>
+        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unkn</p>
+
+    <div class="row">
+        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="linear" class="course-col">
+            <h3>Beginner</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="linear" class="course-col">
+            <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="linear" class="course-col">
+            <h3>Advanced</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!------ languages -------->
+
+<section data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing="linear" class="languages">
+    <h1>Languages We Offer</h1>
+        <p>Our lessons include 3 very popularly used languages, with 2 of them being programming languages and 1 of them being a markup+styling language. Have a look below at the languages we offer: </p>
+
+        <div class="row">
+            <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing="linear" class="languages-col">
+                <img src="images/site_python.jpeg">
+                <div class="layer">
+                    <h3>PYTHON</h3>
+                    <p>Python is a high-level, interpreted programming language known for its simple syntax, powerful libraries, and wide range of applications. It is often used in scientific computing, data analysis, artificial intelligence, and web development.</p>
+                </div>
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing="linear" class="languages-col">
+                <img src="images/site_java.jpeg">
+                <div class="layer">
+                    <h3>JAVA</h3>
+                    <p>Java is a popular, general-purpose programming language that is designed to be portable across different platforms. It is commonly used for building enterprise-level applications, developing mobile apps, and creating video games.</p>
+                </div>
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing="linear" class="languages-col">
+                <img src="images/site_htmlcssjs.jpeg">
+                <div class="layer">
+                    <h3>HTML/CSS</h3>
+                    <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are the building blocks of the web. HTML is used to create the structure and content of a website, while CSS is used to control the layout and design.</p>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+<!----------Services---------->
+
+<section data-aos="zoom-in-up" data-aos-duration="1400" data-aos-easing="linear" class="services">
+    <h1>Our Services</h1>
+        <p>At Add name org, we offer a variety of services to help people learn how to code and improve their coding skills. Our services include:</p>
+
+        <div class="row">
+            <div data-aos="zoom-in-up" data-aos-duration="1400" data-aos-easing="linear" class="services-col">
+                <img src="images/site_teachingcode.jpeg">
+                <h3>Free Coding Lessons</h3>
+                <p>We provide a variety of coding lessons, including introductions to coding concepts and tutorials on specific programming languages. Our lessons are designed for beginners and are completely free to access.</p>        
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="1400" data-aos-easing="linear" class="services-col">
+                <img src="images/site_assistance.jpeg">
+                <h3>Coding Assistance</h3>
+                <p>We offer assistance with coding projects, helping people understand how to code and debug their projects. Our team of experienced coders are available to answer questions and provide guidance on your projects.</p>        
+            </div>
+            <div data-aos="zoom-in-up" data-aos-duration="1400" data-aos-easing="linear" class="services-col">
+                <img src="images/site_mentoring.png">
+                <h3>Mentorship Program</h3>
+                <p>Our mentorship program connects people with experienced coders who can provide guidance and support as they learn to code. Our mentors are available to answer questions, review code, and provide feedback on your projects.</p>        
+            </div>
+        </div>
+    
+</section>
+
+
+<!----------Testimonials------------->
+
+<section data-aos="zoom-in-up" data-aos-duration="1600" data-aos-easing="linear" class="testimonials">
+    <h1>What We Say</h1>
+    <p>Have a look at what people who enrolled in the courses say:</p>
+
+    <div class="row">
+        <div data-aos="zoom-in-up" data-aos-duration="1600" data-aos-easing="linear" class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3>Christine Doe</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+ 
+            </div>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-duration="1600" data-aos-easing="linear" class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3>John Doe</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ---- call to action ---- -->
+
+<section data-aos="zoom-in-up" data-aos-duration="1800" data-aos-easing="linear" class="cta">
+    <h1>Enroll for free online lessons. <br>Anywhere form the world</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+
+
+<!-- ---- Footer ---- -->
+
+<button id="top-btn" onclick="topFunction()">TOP</button>
+<section class="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>GET IN TOUCH</h3>
+            <ul>
+                <li>Email: info@(orgname).com</li>
+                <li>Phone: +968 92706668</li>
+                <li>Address: ABA Oman International School</li>
+            </ul>
+        </div>
+        
+        <div class="footer-col">
+            <h3>QUICK LINKS</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-col">
+            <h3>CONNECT WITH US</h3>
+            <div class="icons">
+                <a href="https://www.facebook.com/people/Educe-Ecude/100089711288590/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com/educetm/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/educetm/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/educe-ofc-108062263/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <h4>ABOUT US</h4>
+    <p><strong>EDUCE</strong> is a student-led organization founded by Rui Chang Lyu, with the goal of bridging the digital divide by providing free coding lessons for everyone. <br>The organization is run by a team of dedicated students and offers a variety of coding lessons and assistance with coding projects, as well as a mentorship program. <br>They also plan to organize events and meetups for people interested in coding and computer science to connect, collaborate, and learn from each other. </p>
+
+
+    <p class="copyright">Copyright &copy; 2023 EDUCE | All rights reserved</p>
+</section>
+
+
+
+
+
+
+
+<!-----JavaScript for bottom-right button------->
+
+<script>
+        // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("top-btn").style.display = "block";
+    } else {
+        document.getElementById("top-btn").style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+
+</script>
+
+
+<!------ JavaScript for Scrolling Animations --------->
+
+<script>
+    AOS.init();
+</script>
+
+
+<!---- JavaScript for Toggle Menu ------>
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
